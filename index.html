@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>AI 智能图文识别系统</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI 智能图文识别与解析</h1>
+        
+        <!-- 你的信息 固定显示 -->
+        <div class="info">
+            姓名：cxz; 学号：202335020652
+        </div>
+
+        <div class="box">
+            <h3>上传图片进行 AI 识别</h3>
+            <input type="file" id="imageInput" accept="image/*">
+            <button onclick="startRecognition()">开始识别</button>
+        </div>
+
+        <div class="result-box">
+            <h3>识别结果</h3>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
